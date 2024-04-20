@@ -222,6 +222,12 @@
       >View our preprocessed dataset here</a
     >
   </p>
+
+  <p>
+    <a href="https://github.com/cessbub/cs132-project"
+      >View our raw data and Github Repository here</a
+    >
+  </p>
 </main>
 
 <style>

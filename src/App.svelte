@@ -3,18 +3,19 @@
 </script>
 
 <main>
-  <h1>SPEAK OUT AND BE HEARD</h1>
-  <h2>
-    Uncovering the Shadows of Gender-Based Violence Among Filipino Redditors
-  </h2>
-
-  <p>
-    This initiative seeks to explore and expose the experiences of gender-based
-    violence as shared by individuals in Filipino Reddit communities. Our
-    project analyzes the nature of these experiences, investigates patterns
-    based on demographics, geography, and special dates, and examines the impact
-    of community engagement on these critical issues.
-  </p>
+  <section>
+    <h1>SPEAK OUT AND BE HEARD</h1>
+    <h2>
+      Uncovering the Shadows of Gender-Based Violence Among Filipino Redditors
+    </h2>
+    <p>
+      This initiative seeks to explore and expose the experiences of
+      gender-based violence as shared by individuals in Filipino Reddit
+      communities. Our project analyzes the nature of these experiences,
+      investigates patterns based on demographics, geography, and special dates,
+      and examines the impact of community engagement on these critical issues.
+    </p>
+  </section>
 
   <h1>Our Research Focus 🔍</h1>
 

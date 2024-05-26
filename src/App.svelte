@@ -1,32 +1,62 @@
 <script>
-  import Counter from "./lib/Counter.svelte";
+  import Navbar from "./lib/Navbar.svelte";
+  import { Icon } from "svelte-icons-pack";
+  import { BsArrowDownCircle } from "svelte-icons-pack/bs";
 </script>
 
 <main>
-  <section>
-    <h1>SPEAK OUT AND BE HEARD</h1>
-    <h2>
-      Uncovering the Shadows of Gender-Based Violence Among Filipino Redditors
-    </h2>
-    <p>
-      This initiative seeks to explore and expose the experiences of
-      gender-based violence as shared by individuals in Filipino Reddit
-      communities. Our project analyzes the nature of these experiences,
-      investigates patterns based on demographics, geography, and special dates,
-      and examines the impact of community engagement on these critical issues.
-    </p>
+  <section class="bg-slate-100 py-6">
+    <Navbar />
+    <div class="m-20 mt-18">
+      <h2 class="text-4xl text-zinc-800">SPEAK OUT AND BE HEARD</h2>
+      <h1 class="text-8xl">
+        Uncovering the Shadows of Gender-Based Violence Among Filipino Redditors
+      </h1>
+      <div>
+        <div class="flex flex-row space-x-8">
+          <div class="w-7/12 pt-6 space-y-8">
+            <p class="w-10/12 text-lg">
+              This initiative seeks to explore and expose the experiences of
+              gender-based violence as shared by individuals in Filipino Reddit
+              communities. Our project analyzes the nature of these experiences,
+              investigates patterns based on demographics, geography, and
+              special dates, and examines the impact of community engagement on
+              these critical issues.
+            </p>
+            <div>
+              <a href="/" class="downicon flex align-center gap-2">
+                <Icon src={BsArrowDownCircle} size="2em" />
+                <span class="text-xl ml-2">Explore Our Study</span>
+              </a>
+            </div>
+          </div>
+          <div class="rounded-lg object-contain mt-[-20px]">
+            <img
+              src="image/womenrights.jpeg"
+              alt="A Filipino protestor holding a placard reading 'Condemn violence - protect women'"
+              class="rounded-lg object-contain"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <h1>Our Research Focus 🔍</h1>
-
-  <h2>Overview</h2>
-  <p>
-    Gender-based violence remains a pervasive issue worldwide, with social media
-    platforms often becoming arenas where such incidents are discussed and
-    disclosed. Our project focuses on understanding the narratives around
-    gender-based violence within Filipino Reddit communities, looking for
-    patterns that might inform better responses and preventative measures.
-  </p>
+  <section class="bg-slate-100 align-center">
+    <div
+      class="mx-6 bg-white rounded-lg justify-center flex flex-col margin-auto p-20"
+    >
+      <h1 class="text-lg">Overview</h1>
+      <p>
+        Gender-based violence remains a pervasive issue worldwide, with social
+        media platforms often becoming arenas where such incidents are discussed
+        and disclosed. Our project focuses on understanding the narratives
+        around gender-based violence within Filipino Reddit communities, looking
+        for patterns that might inform better responses and preventative
+        measures.
+      </p>
+    </div>
+  </section>
 
   <h2>Problem</h2>
   <ul>
@@ -42,7 +72,7 @@
       What type of posts receive the most community engagement based on upvotes?
     </li>
   </ul>
-
+  <!-- 
   <h2>Hypotheses</h2>
   <p>
     We hypothesize that posts about gender-based violence show significant
@@ -227,7 +257,7 @@
     <a href="https://github.com/cessbub/cs132-project"
       >View our raw data and Github Repository here</a
     >
-  </p>
+  </p> -->
 </main>
 
 <style>

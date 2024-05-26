@@ -2,6 +2,8 @@
   import Navbar from "./lib/Navbar.svelte";
   import { Icon } from "svelte-icons-pack";
   import { BsArrowDownCircle } from "svelte-icons-pack/bs";
+  import Overview from "./lib/Overview.svelte";
+  import AboutDataset from "./lib/AboutDataset.svelte";
 </script>
 
 <main>
@@ -42,123 +44,59 @@
     </div>
   </section>
 
-  <section class="bg-slate-100 align-center">
-    <div
-      class="mx-6 bg-white rounded-lg justify-center flex flex-col margin-auto p-20"
-    >
-      <h1 class="text-lg">Overview</h1>
-      <p>
-        Gender-based violence remains a pervasive issue worldwide, with social
-        media platforms often becoming arenas where such incidents are discussed
-        and disclosed. Our project focuses on understanding the narratives
-        around gender-based violence within Filipino Reddit communities, looking
-        for patterns that might inform better responses and preventative
-        measures.
-      </p>
-    </div>
+  <div class="bg-slate-100">
+    <Overview />
+  </div>
+
+  <section class="bg-slate-100">
+    <AboutDataset />
+    <!-- 
+    <h3>Data Collection Process</h3>
+
+    <h4>Web Scraping and Search Inputs</h4>
+    <p>
+      The posts were filtered based on specific search inputs related to
+      different forms of gender-based violence. The search inputs used are as
+      follows:
+    </p>
+    <ol>
+      <li>abused</li>
+      <li>sexual harassment</li>
+      <li>Cyberbullying</li>
+      <li>domestic violence</li>
+      <li>emotional abuse</li>
+      <li>physical abuse</li>
+      <li>unsolicited pics</li>
+      <li>stalking</li>
+    </ol>
+
+    <h4>Dataset Size</h4>
+    <p>The originally scraped data set contains:</p>
+    <ul>
+      <li><strong>title</strong>: The title of the post.</li>
+      <li><strong>body</strong>: The main content of the post.</li>
+      <li><strong>link</strong>: The link URL that directs to the post.</li>
+      <li><strong>author</strong>: Author of the post</li>
+      <li><strong>created</strong>: Date when the post was created.</li>
+      <li>
+        <strong>subreddit</strong>: The subreddit from which the post
+        originated.
+      </li>
+      <li>
+        <strong>searchinput</strong>: The keyword used for the search input.
+      </li>
+    </ul>
+
+    <h1>Preprocessing Details 📝</h1>
+
+    <h2>Objective of Preprocessing</h2>
+    <p>
+      Our preprocessing efforts aim to refine the raw dataset into a clean,
+      analyzable format that supports reliable data analysis and insight
+      generation. This process ensures data quality and facilitates effective
+      data exploration.
+    </p>
   </section>
-
-  <h2>Problem</h2>
-  <ul>
-    <li>
-      What is the nature of gender-based violence shared by Redditors on
-      PH-based subreddits?
-    </li>
-    <li>
-      Are there demographic, geographic, or date-related patterns in the
-      experiences shared?
-    </li>
-    <li>
-      What type of posts receive the most community engagement based on upvotes?
-    </li>
-  </ul>
-  <!-- 
-  <h2>Hypotheses</h2>
-  <p>
-    We hypothesize that posts about gender-based violence show significant
-    variations in engagement and content type depending on the demographic and
-    date of posting, highlighting specific times or demographics that might be
-    more vulnerable.
-  </p>
-
-  <h2>Solution</h2>
-  <p>
-    We propose to methodically analyze Reddit posts to uncover patterns and
-    insights that can help in understanding and mitigating gender-based violence
-    among the Filipino Reddit community. This includes examining the frequency
-    of discussions, the context in which they occur, and the impact of community
-    response on these posts.
-  </p>
-
-  <h1>About Our Dataset 📖</h1>
-
-  <p>
-    The dataset was collected by scraping posts from Philippine subreddits and
-    using keywords related to various forms of gender-based violence for the
-    search inputs. The scraped data had 1,900+ rows in total.
-  </p>
-
-  <h3>Description of the Data Set</h3>
-  <p>
-    The dataset consists of Reddit posts collected from the following
-    subreddits:
-  </p>
-  <ul>
-    <li>alasjuicy</li>
-    <li>MentalHealthPH</li>
-    <li>OffmychestPH</li>
-    <li>Philippines</li>
-    <li>relationship_advicePH</li>
-  </ul>
-
-  <p>
-    The posts were scraped using the Python Reddit API Wrapper (praw) and
-    Jupyter Notebook.
-  </p>
-
-  <h3>Data Collection Process</h3>
-
-  <h4>Web Scraping and Search Inputs</h4>
-  <p>
-    The posts were filtered based on specific search inputs related to different
-    forms of gender-based violence. The search inputs used are as follows:
-  </p>
-  <ol>
-    <li>abused</li>
-    <li>sexual harassment</li>
-    <li>Cyberbullying</li>
-    <li>domestic violence</li>
-    <li>emotional abuse</li>
-    <li>physical abuse</li>
-    <li>unsolicited pics</li>
-    <li>stalking</li>
-  </ol>
-
-  <h4>Dataset Size</h4>
-  <p>The originally scraped data set contains:</p>
-  <ul>
-    <li><strong>title</strong>: The title of the post.</li>
-    <li><strong>body</strong>: The main content of the post.</li>
-    <li><strong>link</strong>: The link URL that directs to the post.</li>
-    <li><strong>author</strong>: Author of the post</li>
-    <li><strong>created</strong>: Date when the post was created.</li>
-    <li>
-      <strong>subreddit</strong>: The subreddit from which the post originated.
-    </li>
-    <li>
-      <strong>searchinput</strong>: The keyword used for the search input.
-    </li>
-  </ul>
-
-  <h1>Preprocessing Details 📝</h1>
-
-  <h2>Objective of Preprocessing</h2>
-  <p>
-    Our preprocessing efforts aim to refine the raw dataset into a clean,
-    analyzable format that supports reliable data analysis and insight
-    generation. This process ensures data quality and facilitates effective data
-    exploration.
-  </p>
 
   <h2>Steps in Preprocessing</h2>
 
@@ -258,6 +196,7 @@
       >View our raw data and Github Repository here</a
     >
   </p> -->
+  </section>
 </main>
 
 <style>

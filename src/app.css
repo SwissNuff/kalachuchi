@@ -7,12 +7,15 @@
 :root {
   --primary: #ff4500;
   --secondary: #e32544;
-  --tertiary: #e4950e;
+  --tertiary: #f3bba5;
   --accent-pink: #ed6e83;
   --accent-blue: #4F8CE2;
   --accent-green: #3BCB86;
   --accent-yellow: #FFA200;
   --accent-violet: #8E82F6;
+  --gdark: #181c1f;
+  --ggray: #292c30;
+
   
   font-family: "Fira Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

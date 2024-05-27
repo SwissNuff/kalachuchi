@@ -40,6 +40,10 @@
   transition: background-size 0.3s;
 }
 
+.underline:hover {
+  --underline-width: 100%;
+}
+
 
 
 .downicon{
@@ -53,9 +57,6 @@
 
 
 
-.underline:hover {
-  --underline-width: 100%;
-}
 
 .downicon:hover{
   margin-top: 2px;

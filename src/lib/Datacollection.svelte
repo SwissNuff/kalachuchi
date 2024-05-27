@@ -8,49 +8,49 @@
   <div class="flex flex-wrap text-xs gap-2 font">
     <a
       href="/"
-      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-primary hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
+      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
     >
       abused
     </a>
     <a
       href="/"
-      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-primary hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
+      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
     >
       sexual harassment
     </a>
     <a
       href="/"
-      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-primary hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
+      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
     >
       Cyberbullying
     </a>
     <a
       href="/"
-      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-primary hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
+      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
     >
       domestic violence
     </a>
     <a
       href="/"
-      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-primary hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
+      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
     >
       emotional abuse
     </a>
     <a
       href="/"
-      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-primary hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
+      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
     >
       physical abuse
     </a>
     <a
       href="/"
-      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-primary hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
+      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
     >
       unsolicited pics
     </a>
     <a
       href="/"
-      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-primary hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
+      class="rounded-full px-4 py-1 border-slate-400 border-[1.4px] hover:border-gdark hover:border-[1.4px] ease-in-out duration-100"
     >
       stalking
     </a>

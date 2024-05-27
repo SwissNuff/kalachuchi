@@ -5,7 +5,7 @@
   class="flex flex-col align-center mx-6 bg-slate-100 rounded-2xl px-12 space-y-2 py-12"
 >
   <div class="justify-between items-baseline pb-3">
-    <h2 class="text-center text-3xl">IN A NUTSHELL</h2>
+    <h2 class="text-center text-3xl">Confusion Matrix</h2>
 
     <div class="py-6">
       <img

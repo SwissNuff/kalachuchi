@@ -1,5 +1,5 @@
 <script>
-  let activeSection = "Number of Posts per Year";
+  let activeSection = "Holiday Engagement Trends";
 
   function showSection(section) {
     activeSection = section;
@@ -12,6 +12,15 @@
   <div class="flex justify-between items-baseline pb-3">
     <h2 class="text-center text-3xl">EXPLORATORY DATA ANALYSIS</h2>
     <div class="nav-links text-center space-x-2">
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <!-- svelte-ignore a11y-no-static-element-interactions -->
+      <a
+        class={activeSection === "Holiday Engagement Trends" ? "active" : ""}
+        on:click={() => showSection("Holiday Engagement Trends")}
+      >
+        HOLIDAY ENGAGEMENT TRENDS
+      </a>
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <!-- svelte-ignore a11y-missing-attribute -->
       <!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -52,6 +61,37 @@
   </div>
   <div class="pt-8 text-xl">
     <div class="pt-20 px-20 space-y-4">
+      {#if activeSection === "Holiday Engagement Trends"}
+        <h2 class="text-center text-6xl pt-12 pb-8">
+          Average Engagement Over Time by Holidays
+        </h2>
+        <div class="py-6">
+          <img
+            src="image/holidays.webp"
+            alt="A chart"
+            class="rounded-lg mx-auto w-8/12"
+          />
+        </div>
+        <p>Those with high engagement:</p>
+        <ol>
+          <li>
+            <strong>New Year's Day</strong> — There is a significant spike in engagement
+            around New Year's Day, suggesting that this holiday prompts increased
+            discussions or reporting related to gender-based violence.
+          </li>
+          <li>
+            <strong>Ninoy Aquino Day</strong> — Another prominent spike is seen around
+            Ninoy Aquino Day, indicating a high level of engagement during this period.
+            time.
+          </li>
+        </ol>
+        <p>
+          It is also important to note that by post-2020, there is an increase
+          in the frequency and intensity of engagement spikes around holidays.
+          This indicates growing awareness and community responsiveness to
+          discussions around gender-based violence during these times.
+        </p>
+      {/if}
       {#if activeSection === "Number of Posts per Year"}
         <h2 class="text-center text-6xl pt-12 pb-8">Posts per Year</h2>
         <p>

@@ -104,7 +104,7 @@
   a {
     cursor: pointer;
     text-decoration: none;
-    color: #a6a9ac;
+    color: #818486;
     font-size: 1.2em;
     background: linear-gradient(currentColor 0 0) bottom left/
       var(--underline-width, 0%) 0.1em no-repeat;

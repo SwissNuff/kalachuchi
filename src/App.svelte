@@ -6,6 +6,7 @@
   import Eda from "./lib/EDA.svelte";
   import AboutDataset from "./lib/AboutDataset.svelte";
   import Team from "./lib/Team.svelte";
+  import Nutshell from "./lib/Nutshell.svelte";
 </script>
 
 <main>
@@ -56,6 +57,10 @@
 
   <section class="bg-slate-100 pb-20">
     <Eda />
+  </section>
+
+  <section class="bg-slate-100">
+    <Nutshell />
   </section>
 
   <section class="bg-gdark">

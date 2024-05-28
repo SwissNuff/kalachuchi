@@ -18,7 +18,8 @@
 
     <div class="flex flex-wrap gap-4 mb-32">
       <a
-        href="/"
+        href="data/preprocessed_dataset.csv"
+        download
         class="rounded-full bg-gdark px-4 py-2 text-white ease-in-out duration-100 flex items-center justify-center space-x-2 hover:bg-slate-600 hover:shadow-lg"
       >
         <Icon src={BsDownload} />
@@ -26,7 +27,7 @@
       </a>
 
       <a
-        href="/"
+        href="data/ph_holidays.csv"
         class="rounded-full bg-gdark px-4 py-2 text-white ease-in-out duration-100 flex items-center justify-center space-x-2 hover:bg-slate-600 hover:shadow-lg"
       >
         <Icon src={BsDownload} />

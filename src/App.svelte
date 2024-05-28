@@ -29,7 +29,7 @@
               these critical issues.
             </p>
             <div>
-              <a href="/" class="downicon flex align-center gap-2">
+              <a href="#background" class="downicon flex align-center gap-2">
                 <Icon src={BsArrowDownCircle} size="2em" />
                 <span class="text-xl ml-2">Explore Our Study</span>
               </a>
@@ -47,15 +47,15 @@
     </div>
   </section>
 
-  <div class="bg-slate-100">
+  <div id="background" class="bg-slate-100">
     <Overview />
   </div>
 
-  <section class="bg-slate-100">
+  <section id="data" class="bg-slate-100">
     <AboutDataset />
   </section>
 
-  <section class="bg-slate-100 pb-20">
+  <section id="results" class="bg-slate-100 pb-20">
     <Eda />
   </section>
 
@@ -63,7 +63,7 @@
     <Nutshell />
   </section>
 
-  <section class="bg-gdark">
+  <section id="team" class="bg-gdark">
     <Team />
   </section>
 </main>

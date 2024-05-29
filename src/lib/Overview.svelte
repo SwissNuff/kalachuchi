@@ -7,9 +7,9 @@
 </script>
 
 <div
-  class="flex flex-col align-center mx-6 bg-white rounded-2xl py-16 px-48 space-y-2"
+  class="flex flex-col align-center mx-6 bg-white rounded-2xl py-16 px-8 md:px-48 space-y-2"
 >
-  <h1 class="text-center">Our Research Focus</h1>
+  <h1 class="text-center text-4xl md:text-6xl">Our Research Focus</h1>
   <div class="nav-links text-center space-x-2">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-missing-attribute -->
@@ -49,7 +49,7 @@
     </a>
   </div>
 
-  <div class="pt-8 text-xl">
+  <div class="pt-8 md:text-xl">
     {#if activeSection === "overview"}
       Gender-based violence is a critical issue that affects communities
       worldwide, and social media platforms often become spaces where these

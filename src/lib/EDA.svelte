@@ -9,7 +9,7 @@
 <div
   class="flex flex-col align-center mx-6 bg-white rounded-2xl px-12 space-y-2 py-12"
 >
-  <div class="flex justify-between items-baseline pb-3">
+  <div class="md:flex justify-between items-baseline pb-3">
     <h2 class="text-center text-3xl">EXPLORATORY DATA ANALYSIS</h2>
     <div class="nav-links text-center space-x-2">
       <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -60,9 +60,9 @@
     </div>
   </div>
   <div class="pt-8 text-xl">
-    <div class="pt-20 px-20 space-y-4">
+    <div class="pt-20 md:px-20 space-y-4">
       {#if activeSection === "Holiday Engagement Trends"}
-        <h2 class="text-center text-6xl pt-12 pb-8">
+        <h2 class="text-center text-4xl md:text-6xl pt-12 md:pb-8">
           Average Engagement Over Time by Holidays
         </h2>
         <div class="py-6">
@@ -93,7 +93,9 @@
         </p>
       {/if}
       {#if activeSection === "Number of Posts per Year"}
-        <h2 class="text-center text-6xl pt-12 pb-8">Posts per Year</h2>
+        <h2 class="text-center text-4xl md:text-6xl pt-12 md:pb-8">
+          Posts per Year
+        </h2>
         <p>
           Our team has first explored the number of reddit posts per year that
           mentions gender-based violence keywords.
@@ -163,7 +165,7 @@
         </ol>
       {/if}
       {#if activeSection === "MONTHLY ANALYSIS OF POSTS"}
-        <h2 class="text-center text-6xl pt-12 pb-8">
+        <h2 class="text-center text-4xl md:text-6xl pt-12 md:pb-8">
           Monthly Analysis of Posts
         </h2>
         <div class="py-6">
@@ -191,7 +193,9 @@
       {/if}
 
       {#if activeSection === "Number of Posts per Day"}
-        <h2 class="text-center text-6xl pt-12 pb-8">Daily Analysis of Posts</h2>
+        <h2 class="text-center text-4xl md:text-6xl pt-12 md:pb-8">
+          Daily Analysis of Posts
+        </h2>
         <div class="py-6">
           <img
             src="image/post_per_day.webp"
@@ -221,7 +225,7 @@
       {/if}
 
       {#if activeSection === "Weekly Analysis"}
-        <h2 class="text-center text-6xl pt-12 pb-8">
+        <h2 class="text-center text-4xl md:text-6xl pt-12 md:pb-8">
           Weekly Analysis of Posts
         </h2>
         <div class="py-6">

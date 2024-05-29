@@ -6,9 +6,9 @@
 </script>
 
 <div
-  class="flex flex-row items-start mx-6 rounded-2xl py-16 px-12 space-x-10 relative z-20 justify-between"
+  class="md:flex flex-row items-start md:mx-6 rounded-2xl py-16 px-12 md:space-x-10 relative z-20 justify-between"
 >
-  <div class="w-5/12 text-xs sidebar rounded-2xl sticky top-0">
+  <div class="md:w-5/12 text-xs md:sidebar rounded-2xl md:sticky md:top-0">
     <h1 class="text-4xl mb-4 pt-16">About Our Dataset</h1>
     <p class="text-xl mb-8">
       The dataset was collected by scraping posts from Philippine subreddits and
@@ -35,7 +35,7 @@
       </a>
     </div>
   </div>
-  <div class="w-7/12">
+  <div class="md:w-7/12">
     <div class="relative mb-8">
       <a
         href="https://docs.google.com/spreadsheets/d/1xt632YneUFUZrn8Lc8KlxfnWZYtL25YuKSansk992tc/edit?usp=sharing"

@@ -9,7 +9,7 @@
       <span class="font-semibold flex items-center">Kalachuchi</span>
     </div>
     <!-- Primary Navbar items -->
-    <div class="flex items-center space-x-7">
+    <div class="md:flex items-center space-x-7 hidden">
       <a href="#home" class="underline">Home</a>
       <a href="#background" class="underline">Background</a>
       <a href="#data" class="underline">Data</a>

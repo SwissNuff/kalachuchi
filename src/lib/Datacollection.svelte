@@ -1,4 +1,50 @@
+<script>
+  import Redditcard from "../components/Redditcard.svelte";
+</script>
+
 <div class="bg-white px-12 py-14 rounded-lg shadow-lg mt-16 space-y-4">
+  <h2 class="text-4xl">Description of the Data Set</h2>
+  <p>
+    The dataset consists of Reddit posts collected from the following
+    subreddits:
+  </p>
+
+  <div class="pb-1 sbarthin flex text-xs gap-2 font overflow-x-auto">
+    <Redditcard
+      title="r/OffmychestPH"
+      description="A Filipino community where we work to make it a safe space in which you can unload your burdens, as well as celebrate your wins and milestones."
+      members="556k"
+      link="https://www.reddit.com/r/OffmychestPH/"
+    />
+
+    <Redditcard
+      title="r/MentalHealthPH"
+      description="A community of Filipinos here and abroad to find support, share stories, discuss mental health issues and more."
+      members="49K"
+      link="https://www.reddit.com/r/MentalHealthPH/"
+    />
+
+    <Redditcard
+      title="r/Philippines"
+      description="A subreddit for the Philippines and all things Filipino!"
+      members="1.9M"
+      link="https://www.reddit.com/r/Philippines/"
+    />
+
+    <Redditcard
+      title="r/relationship_advicePH"
+      description="Need advice with your relationship? Whether it's romance, friendship, family, co-workers, or basic human interaction: we're here to help. "
+      members="134K"
+      link="https://www.reddit.com/r/relationship_advicePH/"
+    />
+    <Redditcard
+      title="r/alasjuicy"
+      description="NSFW stories and confessions from Filipino redditors"
+      members="263K"
+      link="https://www.reddit.com/r/alasjuicy/"
+    />
+  </div>
+
   <h2 class="text-4xl">Data Collection Process</h2>
 
   <p>

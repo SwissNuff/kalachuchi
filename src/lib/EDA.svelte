@@ -12,51 +12,44 @@
   <div class="md:flex justify-between items-baseline pb-3">
     <h2 class="text-center text-3xl">EXPLORATORY DATA ANALYSIS</h2>
     <div class="nav-links text-center space-x-2">
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
-      <a
+      <button
         class={activeSection === "Holiday Engagement Trends" ? "active" : ""}
         on:click={() => showSection("Holiday Engagement Trends")}
       >
         HOLIDAY ENGAGEMENT TRENDS
-      </a>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
-      <a
+      </button>
+
+      <button
         class={activeSection === "Number of Posts per Year" ? "active" : ""}
         on:click={() => showSection("Number of Posts per Year")}
       >
         POST PER YEAR
-      </a>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
-      <a
+      </button>
+      <button
         class={activeSection === "Number of Posts per Day" ? "active" : ""}
         on:click={() => showSection("Number of Posts per Day")}
       >
         POST PER DAY
-      </a>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
-      <a
+      </button>
+      <button
         class={activeSection === "MONTHLY ANALYSIS OF POSTS" ? "active" : ""}
         on:click={() => showSection("MONTHLY ANALYSIS OF POSTS")}
       >
         MONTHLY ANALYSIS
-      </a>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <!-- svelte-ignore a11y-missing-attribute -->
-      <!-- svelte-ignore a11y-no-static-element-interactions -->
-      <a
+      </button>
+
+      <button
         class={activeSection === "Weekly Analysis" ? "active" : ""}
         on:click={() => showSection("Weekly Analysis")}
       >
         WEEKLY ANALYSIS
-      </a>
+      </button>
+      <button
+        class={activeSection === "Gender" ? "active" : ""}
+        on:click={() => showSection("Gender")}
+      >
+        ENGAGEMENT BY GENDER
+      </button>
     </div>
   </div>
   <div class="pt-8 text-xl">
@@ -256,18 +249,47 @@
           </li>
         </ul>
       {/if}
+
+      {#if activeSection === "Gender"}
+        <h2 class="text-center text-4xl md:text-6xl pt-12 md:pb-8">
+          Weekly Analysis of Posts
+        </h2>
+        <div class="py-6">
+          <img
+            src="image/post_per_week.webp"
+            alt="A chart"
+            class="rounded-lg mx-auto w-8/12"
+          />
+        </div>
+        <p>Those with high engagement:</p>
+        <ul>
+          <li>
+            <strong>Unknown Gender </strong> — The "Unknown" category shows significant
+            spikes in engagement, especially before 2020. This suggests that posts
+            where the gender of the poster is not specified tend to receive substantial
+            engagement. This might be because these posts focus more on the content
+            of the experience rather than the gender of the poster.
+          </li>
+          <li>
+            <strong>Female and Male</strong> — After 2020, both Female and Male groups
+            show notable spikes in engagement. The engagement for these groups increases
+            over time, indicating a growing interest and responsiveness to posts
+            where the gender of the poster is specified.
+          </li>
+        </ul>
+      {/if}
     </div>
   </div>
 </div>
 
 <style>
-  .nav-links a.active {
+  .nav-links button.active {
     font-weight: 400;
     color: var(--ggray);
     --underline-width: 100%;
   }
 
-  a {
+  button {
     cursor: pointer;
     text-decoration: none;
     color: #818486;
@@ -280,7 +302,7 @@
     transition: background-size 0.3s;
   }
 
-  a:hover {
+  button:hover {
     --underline-width: 100%;
   }
 

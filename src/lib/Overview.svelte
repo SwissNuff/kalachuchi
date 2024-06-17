@@ -9,44 +9,37 @@
 <div
   class="flex flex-col align-center mx-6 bg-white rounded-2xl py-16 px-8 md:px-48 space-y-2"
 >
-  <h1 class="text-center text-4xl md:text-6xl">Our Research Focus</h1>
-  <div class="nav-links text-center space-x-2">
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-missing-attribute -->
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <a
+  <h1 class="text-center text-4xl md:text-6xl background">
+    Our Research Focus
+  </h1>
+  <div class="nav-links text-center space-x-2 text-lg">
+    <button
       class={activeSection === "overview" ? "active" : ""}
       on:click={() => showSection("overview")}
     >
       Overview
-    </a>
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-missing-attribute -->
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <a
+    </button>
+
+    <button
       class={activeSection === "problem" ? "active" : ""}
       on:click={() => showSection("problem")}
     >
       Problem
-    </a>
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-missing-attribute -->
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <a
+    </button>
+
+    <button
       class={activeSection === "hypothesis" ? "active" : ""}
       on:click={() => showSection("hypothesis")}
     >
       Hypothesis
-    </a>
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-missing-attribute -->
-    <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <a
+    </button>
+
+    <button
       class={activeSection === "solution" ? "active" : ""}
       on:click={() => showSection("solution")}
     >
       Solution
-    </a>
+    </button>
   </div>
 
   <div class="pt-8 md:text-xl">
@@ -69,10 +62,29 @@
     {/if}
 
     {#if activeSection === "hypothesis"}
-      We hypothesize that posts about gender-based violence show significant
-      variations in engagement and content type depending on the demographic and
-      date of posting, highlighting specific times or demographics that might be
-      more vulnerable.
+      <p>We hypothesize that:</p>
+      <br />
+      <ol>
+        <li>
+          <b>Content Variation</b> — Posts about gender-based violence will show
+          significant variations in engagement and content type based on demographics
+          and the time of posting.
+        </li>
+        <li>
+          <b>Vulnerability Indicators</b> — Certain times or demographics may be
+          more vulnerable, as indicated by higher frequencies of reported incidents.
+        </li>
+        <li>
+          <b>Engagement Patterns</b> — Specific types of posts, perhaps those with
+          more personal stories or calls for help, may receive higher community engagement,
+          indicating a greater collective response.
+        </li>
+        <li>
+          <b>Keyword Patterns </b>— Some words may be more commonly used in
+          certain contexts which could provide insights on the general outlook
+          of the community on gender-based violence topics.
+        </li>
+      </ol>
     {/if}
 
     {#if activeSection === "solution"}
@@ -88,12 +100,13 @@
 </div>
 
 <style>
-  .nav-links a.active {
+  .nav-links button.active {
     font-weight: 400;
     color: var(--ggray);
+    --underline-width: 100%;
   }
 
-  a {
+  button {
     cursor: pointer;
     text-decoration: none;
     color: #818486;
@@ -106,7 +119,7 @@
     transition: background-size 0.3s;
   }
 
-  a:hover {
+  button:hover {
     --underline-width: 100%;
   }
 </style>

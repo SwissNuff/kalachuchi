@@ -29,6 +29,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* width */
+.sbarthin::-webkit-scrollbar {
+  height: 4px;
+}
+
+/* Track */
+.sbarthin::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.sbarthin::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+}
+
+
 .underline {
   background: linear-gradient(currentColor 0 0) 
     bottom left/
@@ -44,6 +60,22 @@
   --underline-width: 100%;
 }
 
+.cutelink {
+  background-image: linear-gradient(71deg, #c576e48e, #fba6beaa 47%, #fed5a6a3 100%); 
+  position: relative;
+  color: var(--ggray);
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-size: 100% 0.25rem;
+  background-position: 0 110%;
+  transition: all 250ms;
+  &:hover {
+    background-size: 100% 100%;
+  }
+}
+
+
+
 
 
 .downicon{
@@ -56,8 +88,37 @@
   padding-top: 5px;
 }
 
+.gradient-light {
+  background-color: #6b7ac6;
+  background-image: linear-gradient(71deg, #c576e4, #fba6be 47%, #fed5a6 100%);  
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
 
+.gradient-dark {
+  background-color: #6b7ac6;
+  background-image: linear-gradient(71deg, #d67c55 0%, #c559be 47%,  #7848ac 100%);  
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
 
+.gradient-title {
+  background-color: #6b7ac6;
+  background-image: linear-gradient(-32deg, #ba273d 15%, #c762c3 57%, #7848ac 90%);  
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+.gradient-background {
+  background-color: #6b7ac6;
+  background-image: linear-gradient(-32deg, #ba273d 15%, #c762c3 57%, #7848ac 90%);  
+}
 
 .downicon:hover{
   margin-top: 2px;

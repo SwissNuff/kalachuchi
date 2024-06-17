@@ -1,30 +1,97 @@
-<div class="text-white text-center pt-12">
-  <h1>MEET THE TEAM</h1>
+<div class="text-white text-center py-12 space-y-14">
+  <h1 class="pt-4 text-7xl gradient m-auto gradient-light pb-4">
+    MEET THE TEAM
+  </h1>
+
+  <!-- Arian -->
   <div
-    class="md:flex bg-gdark flex-row items-start mx-6 pb-4 w-100vw justify-around"
+    class="md:flex bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg w-9/12 m-auto p-6"
   >
-    <div class="md:w-3/12 text-left">
-      <h2 class="mb-4 pt-16 w">Arian Rey</h2>
-      <p>
-        Hi there! I'm Arian Rey. 👋 I am a 4th-year Computer Science student at
+    <div class="w-8/12 flex flex-col text-gdark">
+      <h2 class="mb-2 text-[2em] text-left gradient-dark">Arian Rey</h2>
+      <p class="text-lg text-left">
+        Hi there! I'm Arian Rey 🐣 <br /> A 4th-year Computer Science student at
         the University of the Philippines - Diliman, specializing in UI/UX
         design and software development. Currently, I am passionate about
-        developing Keller, a browser extension that helps low-vision and blind
-        people generate alternative text for images. With this project, I aim to
-        raise awareness and increase efforts to make technology more accessible
-        in the Philippines. I've also worked on other cool projects. If you're
-        interested, please visit my website to check them out:
-        https://www.arianrey.com/
+        developing
+        <a
+          class="cutelink"
+          href="https://www.facebook.com/100000211194115/videos/1483317855906156/"
+          >Keller</a
+        >, a browser extension that helps low-vision and blind people generate
+        alternative text for images. With this project, I aim to raise awareness
+        and increase efforts to make technology more accessible in the
+        Philippines.
+        <br /><br />
+        I've also worked on other cool projects. If you're interested, please visit
+        my website to check them out:
+        <a class="cutelink" href="https://www.arianrey.com/" target="_blank"
+          >https://www.arianrey.com/</a
+        >
       </p>
     </div>
-    <div class="md:w-3/12 text-left">
-      <h2 class="mb-4 pt-16">Cess Ventures</h2>
-      <p>Just a simple girl and a CS132 Student</p>
-    </div>
-    <div class="md:w-3/12 text-left">
-      <h2 class="mb-4 pt-16">Christian Quinzon</h2>
-      <p>Just a simple girl? and a CS132 Student</p>
+    <div class="rounded-lg w-4/12">
+      <img
+        class="rounded-2xl m-auto"
+        src="./image/arianlong.png"
+        alt="A girl smiling with a flower in her hair"
+      />
     </div>
   </div>
-  <div class="w-7/12"></div>
+
+  <!-- Cess -->
+  <div
+    class="md:flex bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg w-9/12 m-auto p-6"
+  >
+    <div class="rounded-lg w-5/12">
+      <img
+        class="rounded-2xl m-auto"
+        src="./image/cess.png"
+        alt="A girl smiling with a flower in her hair"
+      />
+    </div>
+    <div class="w-8/12 flex flex-col text-gdark">
+      <h2 class="mb-2 text-[2em] text-left gradient-dark">Cess Ventures</h2>
+      <p class="text-md text-left">
+        Hey there! I'm Cess 👋 My journey is at the exciting intersection of
+        design and technology.
+        <br /><br />
+        I wear many hats—currently a senior standing computer science student at
+        UP Diliman, and offering freelance services on UI/UX design and others.
+        <br /><br />
+        As a healthtech innovator, CEO and co-founder of VitalRadar, we aim to empower
+        people with streamlined health management.
+        <br /><br />
+        I find joy in using my skills to design and build solutions that enhance
+        people's lives. I'm a huge believer in the power of human-centered design
+        in the potential of machine learning to shape a better future for you and
+        me!
+        <br /><br />
+        💻 portfolio:
+        <a class="cutelink" href="https://princessventures.com/" target="_blank"
+          >https://princessventures.com/</a
+        >
+        <br />
+        🚀 github:
+        <a class="cutelink" href="https://github.com/cessbub" target="_blank"
+          >https://github.com/cessbub</a
+        >
+        <br />
+
+        👩🏻‍💻 book a call:
+        <a
+          class="cutelink"
+          href="https://calendly.com/cessventures/30-min-cal"
+          target="_blank">https://calendly.com/cessventures/30-min-call</a
+        >
+        <br />
+        💌 email:
+        <a class="cutelink" href="hello@princessventures.com" target="_blank"
+          >hello@princessventures.com</a
+        >
+      </p>
+    </div>
+  </div>
+
+  <!-- Chrissy -->
 </div>

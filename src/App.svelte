@@ -6,16 +6,20 @@
   import Eda from "./lib/EDA.svelte";
   import AboutDataset from "./lib/AboutDataset.svelte";
   import Team from "./lib/Team.svelte";
-  import Nutshell from "./lib/Nutshell.svelte";
+  import Models from "./lib/Models.svelte";
+  import Conclusion from "./lib/Conclusion.svelte";
 </script>
 
 <main>
   <section class="bg-slate-100 py-6">
     <Navbar />
     <div class="m-8 md:m-20 mt-18">
-      <h2 class="text-4xl text-zinc-800">SPEAK OUT AND BE HEARD</h2>
-      <h1 class="text-6xl md:text-8xl">
-        Uncovering the Shadows of Gender-Based Violence Among Filipino Redditors
+      <h2 class="text-4xl text-zinc-700">SPEAK OUT AND BE HEARD</h2>
+      <h1 class="text-6xl text-zinc-800 md:text-8xl">
+        Uncovering the Shadows of <span class="gradient-title"
+          >Gender-Based Violence</span
+        >
+        Among Filipino Redditors
       </h1>
       <div>
         <div class="md:flex flex-row md:space-x-8">
@@ -59,8 +63,12 @@
     <Eda />
   </section>
 
-  <section class="bg-slate-100">
-    <Nutshell />
+  <section>
+    <Models />
+  </section>
+
+  <section>
+    <Conclusion />
   </section>
 
   <section id="team" class="bg-gdark">

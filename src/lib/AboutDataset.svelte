@@ -8,7 +8,7 @@
 <div
   class="md:flex flex-row items-start md:mx-6 rounded-2xl py-16 px-12 md:space-x-10 relative z-20 justify-between"
 >
-  <div class="md:w-5/12 text-xs md:sidebar rounded-2xl md:sticky md:top-0">
+  <div class="md:w-5/12 text-xs md:sidebar rounded-2xl md:sticky md:top-0 py-4">
     <h1 class="text-4xl mb-4 pt-16">About Our Dataset</h1>
     <p class="text-xl mb-8">
       The dataset was collected by scraping posts from Philippine subreddits and
@@ -57,10 +57,3 @@
     <Preprocessing />
   </div>
 </div>
-
-<style>
-  .sidebar {
-    position: sticky;
-    top: 0;
-  }
-</style>

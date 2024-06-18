@@ -75,9 +75,6 @@
 }
 
 
-
-
-
 .downicon{
   padding-top: 0px;
   transition: all 0.3s ease-in-out;;
@@ -149,5 +146,8 @@ body {
   min-height: 100vh;
 }
 
-
-
+ul li {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 1em;
+  }

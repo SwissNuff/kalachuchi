@@ -67,7 +67,7 @@
     <Models />
   </section>
 
-  <section>
+  <section class="bg-slate-100">
     <Conclusion />
   </section>
 

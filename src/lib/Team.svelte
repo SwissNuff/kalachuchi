@@ -8,12 +8,14 @@
     class="md:flex bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg w-9/12 m-auto p-6"
   >
     <div class="w-8/12 flex flex-col text-gdark">
-      <h2 class="mb-2 text-[2em] text-left gradient-dark">Arian Rey</h2>
+      <h2 class="mb-3 text-[2em] text-left">
+        <span class="gradient-dark">Arian Rey</span>🐣
+      </h2>
       <p class="text-lg text-left">
-        Hi there! I'm Arian Rey 🐣 <br /> A 4th-year Computer Science student at
-        the University of the Philippines - Diliman, specializing in UI/UX
-        design and software development. Currently, I am passionate about
-        developing
+        Nice to meet you! I'm Arian Rey<br /><br />A 4th-year Computer Science
+        student at the University of the Philippines - Diliman, specializing in
+        UI/UX design, frontend and software development. Currently, I am
+        passionate about developing
         <a
           class="cutelink"
           href="https://www.facebook.com/100000211194115/videos/1483317855906156/"
@@ -51,7 +53,9 @@
       />
     </div>
     <div class="w-8/12 flex flex-col text-gdark">
-      <h2 class="mb-2 text-[2em] text-left gradient-dark">Cess Ventures</h2>
+      <h2 class="mb-3 text-[2em] text-left">
+        <span class="gradient-dark">Cess Ventures</span>🌸
+      </h2>
       <p class="text-md text-left">
         Hey there! I'm Cess 👋 My journey is at the exciting intersection of
         design and technology.

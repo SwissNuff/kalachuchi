@@ -64,7 +64,7 @@
     {#if activeSection === "hypothesis"}
       <p>We hypothesize that:</p>
       <br />
-      <ol>
+      <ul>
         <li>
           <b>Content Variation</b> — Posts about gender-based violence will show
           significant variations in engagement and content type based on demographics
@@ -84,7 +84,7 @@
           certain contexts which could provide insights on the general outlook
           of the community on gender-based violence topics.
         </li>
-      </ol>
+      </ul>
     {/if}
 
     {#if activeSection === "solution"}

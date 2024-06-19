@@ -62,14 +62,14 @@
           <span class="font-[400]">Demographic Patterns:</span> The "Unknown" age
           group and the 20-29 age group show the highest engagement, suggesting that
           these demographics might be more active in discussing gender-based violence.
-          Similarly, pcosts with unspecified gender or from both female and male
-          users show increased engagement, particularly after 2020.
+          Similarly, posts with unspecified gender or from both female and male users
+          show increased engagement, particularly after 2020.
         </li>
       </ul>
     </div>
   </Dropdown>
 
-  <Dropdown isOpen={false} title="Vulnerability Indicators">
+  <Dropdown isOpen={false} title="Engagement Patterns">
     <p>
       <b>Hypothesis</b>
       <br />
@@ -130,6 +130,7 @@
           <li>Removing Tagalog stop words in the cleaning of the dataset</li>
         </ul>
       </li>
+      <br />
       <li>
         <b>Utilization of Word Similarity Encodings</b>
         <ul>
@@ -139,6 +140,7 @@
           </li>
         </ul>
       </li>
+      <br />
       <li>
         <b>Increase Awareness Campaigns</b>
         <ul>
@@ -149,6 +151,7 @@
           </li>
         </ul>
       </li>
+      <br />
       <li>
         <b>Community Support Initiatives</b>
         <ul>
@@ -159,6 +162,7 @@
           </li>
         </ul>
       </li>
+      <br />
       <li>
         <b>Ongoing Model Improvement</b>
         <ul>

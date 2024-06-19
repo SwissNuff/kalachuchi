@@ -12,10 +12,10 @@
         <span class="gradient-dark">Arian Rey</span>🐣
       </h2>
       <p class="text-lg text-left">
-        Nice to meet you! I'm Arian Rey<br /><br />A 4th-year Computer Science
-        student at the University of the Philippines - Diliman, specializing in
-        UI/UX design, frontend and software development. Currently, I am
-        passionate about developing
+        Nice to meet you! I'm Arian Rey<br /><br />A BS Computer Science student
+        at the University of the Philippines - Diliman, specializing in UI/UX
+        design, frontend and software development. Currently, I am passionate
+        about developing
         <a
           class="cutelink"
           href="https://www.facebook.com/100000211194115/videos/1483317855906156/"
@@ -98,4 +98,46 @@
   </div>
 
   <!-- Chrissy -->
+
+  <div
+    class="md:flex bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg w-9/12 m-auto p-6"
+  >
+    <div class="w-8/12 flex flex-col text-gdark">
+      <h2 class="mb-3 text-[2em] text-left">
+        <span class="gradient-dark">Christian Quinzon</span>🙉
+      </h2>
+      <p class="text-lg text-left">
+        Hi I’m Chrissy! I'm currently a BS Computer Science student at the
+        University of the Philippines - Diliman, specializing in Natural
+        Language Processing (NLP). I contributed to a published conference paper
+        on training the PEGASUS large language model for summarizing COVID-19
+        research papers.
+        <br /><br />
+        I am also active in student organizations, having served as part of the executive
+        committee and as finance head in several teams. I enjoy making music, experimenting
+        with painting, sculpting, gaming, and building figurines.
+        <br /><br />
+
+        🖥️ Research:
+        <a
+          class="cutelink"
+          href="https://doi.org/10.1109/TENCON58879.2023.10322357"
+          target="_blank">https://doi.org/10.1109/TENCON58879.2023.10322357</a
+        ><br />
+        🎶 Music:
+        <a
+          class="cutelink"
+          href="https://soundcloud.com/christianquinzo"
+          target="_blank">https://soundcloud.com/christianquinzon</a
+        >
+      </p>
+    </div>
+    <div class="rounded-lg w-4/12">
+      <img
+        class="rounded-2xl m-auto"
+        src="./image/chrissy.png"
+        alt="A girl smiling with a flower in her hair"
+      />
+    </div>
+  </div>
 </div>

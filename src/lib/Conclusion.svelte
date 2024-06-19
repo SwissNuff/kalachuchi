@@ -5,7 +5,7 @@
 <div
   class="text-xl flex flex-col align-center mx-6 rounded-2xl px-12 gap-3 py-12"
 >
-  <header class="text-center w-8/12 mx-auto mt-16">
+  <header class="text-center w-8/12 mx-auto mt-16 space-y-3">
     <h1 class="text-7xl">Conclusion</h1>
     <p>
       Our project set out to analyze narratives around gender-based violence

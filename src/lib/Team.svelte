@@ -5,9 +5,9 @@
 
   <!-- Arian -->
   <div
-    class="md:flex bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg w-9/12 m-auto p-6"
+    class="flex flex-col sm:flex-row bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg md:w-9/12 w-10/12 m-auto p-6"
   >
-    <div class="w-8/12 flex flex-col text-gdark">
+    <div class="md:w-8/12 flex flex-col text-gdark">
       <h2 class="mb-3 text-[2em] text-left">
         <span class="gradient-dark">Arian Rey</span>🐣
       </h2>
@@ -32,7 +32,7 @@
         >
       </p>
     </div>
-    <div class="rounded-lg w-4/12">
+    <div class="rounded-lg sm:w-4/12 sm:order-last order-first">
       <img
         class="rounded-2xl m-auto"
         src="./image/arianlong.png"
@@ -43,9 +43,9 @@
 
   <!-- Cess -->
   <div
-    class="md:flex bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg w-9/12 m-auto p-6"
+    class="flex flex-col sm:flex-row bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg md:w-9/12 w-10/12 m-auto p-6"
   >
-    <div class="rounded-lg w-5/12">
+    <div class="md:w-8/12 flex flex-col text-gdark">
       <img
         class="rounded-2xl m-auto"
         src="./image/cess.png"
@@ -100,9 +100,9 @@
   <!-- Chrissy -->
 
   <div
-    class="md:flex bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg w-9/12 m-auto p-6"
+    class="flex flex-col sm:flex-row bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg md:w-9/12 w-10/12 m-auto p-6"
   >
-    <div class="w-8/12 flex flex-col text-gdark">
+    <div class="md:w-8/12 flex flex-col text-gdark">
       <h2 class="mb-3 text-[2em] text-left">
         <span class="gradient-dark">Christian Quinzon</span>🙉
       </h2>
@@ -132,7 +132,7 @@
         >
       </p>
     </div>
-    <div class="rounded-lg w-4/12">
+    <div class="rounded-lg sm:w-4/12 sm:order-last order-first">
       <img
         class="rounded-2xl m-auto"
         src="./image/chrissy.png"

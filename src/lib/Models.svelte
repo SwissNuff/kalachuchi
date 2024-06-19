@@ -4,14 +4,13 @@
 </script>
 
 <div
-  class="flex flex-col align-center bg-gdark text-white px-12 space-y-2 py-16 min-h-screen"
+  class="flex flex-col align-center bg-gdark text-white px-12 space-y-12 py-16 min-h-screen"
 >
-  <div class="md:flex pb-6 w-5/12">
+  <!-- FIRST MODEL -->
+  <p class="text-2xl font-semibold gradient-light tracking-widest">MODEL</p>
+  <div class="md:flex pb-6 md:w-5/12">
     <div class="space-y-4">
       <div>
-        <p class="text-xl font-semibold gradient-light tracking-widest">
-          MODEL
-        </p>
         <h2 class="text-5xl">
           Predicting Engagement on Gender-Based Violence Posts
         </h2>
@@ -31,22 +30,27 @@
         </a>
       </div>
     </div>
-    <div class="md:w-7/12">
-      <div class="relative mb-8">
-        <a
-          href="https://docs.google.com/spreadsheets/d/1xt632YneUFUZrn8Lc8KlxfnWZYtL25YuKSansk992tc/edit?usp=sharing"
-          class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-70 duration-300 rounded-md"
-        >
-          <p class="mx-auto underline text-primary">EXPLORE DATASET</p>
-        </a>
-        <a href="/" class="relative">
-          <div class="flex flex-wrap content-center">
-            <img
-              src="image/DatasetTable.png"
-              alt="A dataset containing different data"
-              class="shadow-lg transition-opacity duration-300 hover:opacity-80 rounded-md"
-            />
-          </div>
+  </div>
+  <!-- SECOND MODEL -->
+  <div class="md:flex pb-6 md:w-5/12">
+    <div class="space-y-4">
+      <h2 class="text-5xl">
+        Classifying Types of Gender-Based Violence Reports
+      </h2>
+
+      <p class="text-xl">
+        Our team believes that understanding and categorizing gender-based
+        violence is crucial for providing appropriate support and resources.
+        Because of this, we wanted to use machine learning to classify Reddit
+        posts about gender-based violence into specific categories such as
+        cyberbullying, emotional abuse, physical abuse, and more. This helps in
+        understanding the prevalent types of violence and tailoring
+        interventions accordingly.
+      </p>
+      <div>
+        <a href="#background" class="righticon flex align-center gap-2">
+          <Icon src={BsArrowRightCircle} size="2em" />
+          <span class="text-xl ml-2">Explore The Model</span>
         </a>
       </div>
     </div>

@@ -10,7 +10,9 @@
   class="flex flex-col align-center mx-6 bg-white rounded-2xl px-12 space-y-2 py-12"
 >
   <div class="md:flex justify-between items-baseline pb-3">
-    <h2 class="text-center md:text-left text-3xl">EXPLORATORY DATA ANALYSIS</h2>
+    <h2 class="text-center md:text-right text-3xl">
+      EXPLORATORY DATA ANALYSIS
+    </h2>
     <div class="nav-links text-center space-x-2">
       <button
         class={activeSection === "Holiday Engagement Trends" ? "active" : ""}
@@ -74,35 +76,21 @@
         <p>Those with high engagement:</p>
         <ol>
           <li>
-            <strong>Unknown Age Group</strong> — The "Unknown" category shows the
-            highest and most frequent spikes in engagement. This suggests that posts
-            where the age of the poster is not specified tend to receive more engagement.
-            This could be because these posts may focus more on the content of the
-            experience rather than the demographic details.
+            <strong>New Year's Day</strong> — There is a significant spike in engagement
+            around New Year's Day, suggesting that this holiday prompts increased
+            discussions or reporting related to gender-based violence.
           </li>
           <li>
-            <strong>20-29 Age Group</strong> — This group shows several noticeable
-            spikes in engagement, particularly in recent years (2022-2024). This
-            indicates that posts from individuals in this age group are also receiving
-            significant engagement, possibly due to their active presence on social
-            media and the relevance of their experiences to the broader community.
+            <strong>Ninoy Aquino Day</strong> — Another prominent spike is seen around
+            Ninoy Aquino Day, indicating a high level of engagement during this period.
           </li>
         </ol>
-        <p>Those with moderate engagement:</p>
-        <ol>
-          <li>
-            <strong>30-39 and 50+ Age Groups</strong> — These age groups show moderate
-            engagement with occasional spikes. This suggests that while these groups
-            are active, their posts might not resonate as widely or consistently
-            as those from the younger or unspecified age groups.
-          </li>
-          <li>
-            <strong>40-49 Age Group</strong> — This group has the least engagement,
-            with almost no noticeable spikes. This could indicate that posts from
-            this demographic receive less attention or that this age group is less
-            active in discussing gender-based violence on Reddit
-          </li>
-        </ol>
+        <p>
+          It is also important to note that by post-2020, there is an increase
+          in the frequency and intensity of engagement spikes around holidays.
+          This indicates growing awareness and community responsiveness to
+          discussions around gender-based violence during these times.
+        </p>
       {/if}
       {#if activeSection === "Number of Posts per Year"}
         <h2 class="text-center text-4xl md:text-6xl pt-12 md:pb-8">
@@ -303,27 +291,43 @@
         </h2>
         <div class="py-5">
           <img
-            src="image/plots/ave_engagement_over_time_gender.png"
-            alt="A chart showing Weekly Analysis of Posts"
+            src="image/plots/ave_engagement_over_time_age.png"
+            alt="A chart showing Average Engagement Over Time by Holidays"
             class="rounded-lg mx-auto w-10/12"
           />
         </div>
         <p>Those with high engagement:</p>
-        <ul>
+        <ol>
           <li>
-            <strong>Unknown Gender </strong> — The "Unknown" category shows significant
-            spikes in engagement, especially before 2020. This suggests that posts
-            where the gender of the poster is not specified tend to receive substantial
-            engagement. This might be because these posts focus more on the content
-            of the experience rather than the gender of the poster.
+            <strong>Unknown Age Group</strong> — The "Unknown" category shows the
+            highest and most frequent spikes in engagement. This suggests that posts
+            where the age of the poster is not specified tend to receive more engagement.
+            This could be because these posts may focus more on the content of the
+            experience rather than the demographic details.
           </li>
           <li>
-            <strong>Female and Male</strong> — After 2020, both Female and Male groups
-            show notable spikes in engagement. The engagement for these groups increases
-            over time, indicating a growing interest and responsiveness to posts
-            where the gender of the poster is specified.
+            <strong>20-29 Age Group</strong> — This group shows several noticeable
+            spikes in engagement, particularly in recent years (2022-2024). This
+            indicates that posts from individuals in this age group are also receiving
+            significant engagement, possibly due to their active presence on social
+            media and the relevance of their experiences to the broader community.
           </li>
-        </ul>
+        </ol>
+        <p>Those with moderate engagement:</p>
+        <ol>
+          <li>
+            <strong>30-39 and 50+ Age Groups</strong> — These age groups show moderate
+            engagement with occasional spikes. This suggests that while these groups
+            are active, their posts might not resonate as widely or consistently
+            as those from the younger or unspecified age groups.
+          </li>
+          <li>
+            <strong>40-49 Age Group</strong> — This group has the least engagement,
+            with almost no noticeable spikes. This could indicate that posts from
+            this demographic receive less attention or that this age group is less
+            active in discussing gender-based violence on Reddit
+          </li>
+        </ol>
       {/if}
     </div>
   </div>

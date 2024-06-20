@@ -45,14 +45,14 @@
   <div
     class="flex flex-col sm:flex-row bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg md:w-9/12 w-10/12 m-auto p-6"
   >
-    <div class="md:w-8/12 flex flex-col text-gdark">
+    <div class="md:w-5/12 flex flex-col text-gdark">
       <img
         class="rounded-2xl m-auto"
         src="./image/cess.png"
         alt="A girl smiling with a flower in her hair"
       />
     </div>
-    <div class="w-8/12 flex flex-col text-gdark">
+    <div class="md:w-10/12 flex flex-col text-gdark">
       <h2 class="mb-3 text-[2em] text-left">
         <span class="gradient-dark">Cess Ventures</span>🌸
       </h2>

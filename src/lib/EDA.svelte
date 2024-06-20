@@ -10,9 +10,7 @@
   class="flex flex-col align-center mx-6 bg-white rounded-2xl px-12 space-y-2 py-12"
 >
   <div class="md:flex justify-between items-baseline pb-3">
-    <h2 class="text-center md:text-right text-3xl">
-      EXPLORATORY DATA ANALYSIS
-    </h2>
+    <h2 class="text-center md:text-left text-3xl">EXPLORATORY DATA ANALYSIS</h2>
     <div class="nav-links text-center space-x-2">
       <button
         class={activeSection === "Holiday Engagement Trends" ? "active" : ""}

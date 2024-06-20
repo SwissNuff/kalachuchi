@@ -1,7 +1,6 @@
 <script>
   export let name;
   export let description;
-  export let imgsrc;
 </script>
 
 <div

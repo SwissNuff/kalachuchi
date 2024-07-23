@@ -12,7 +12,7 @@
   <h1 class="text-center text-4xl md:text-6xl background">
     Our Research Focus
   </h1>
-  <div class="nav-links text-center space-x-2 text-lg">
+  <div class="nav-links text-center space-x-2 md:text-lg text-sm">
     <button
       class={activeSection === "overview" ? "active" : ""}
       on:click={() => showSection("overview")}

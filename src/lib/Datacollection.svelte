@@ -2,7 +2,9 @@
   import Redditcard from "../components/Redditcard.svelte";
 </script>
 
-<div class="bg-white px-12 py-14 rounded-lg shadow-lg mt-16 space-y-4">
+<div
+  class="md:w-full w-[88vw] bg-white px-12 py-14 rounded-lg shadow-lg mt-16 space-y-4"
+>
   <h2 class="text-4xl">Description of the Data Set</h2>
   <p>
     The dataset consists of Reddit posts collected from the following

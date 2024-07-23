@@ -3,10 +3,10 @@
 </script>
 
 <div
-  class="text-xl flex flex-col align-center mx-6 rounded-2xl px-12 gap-3 py-12"
+  class="md:text-xl flex flex-col align-center mx-6 rounded-2xl md:px-12 gap-3 py-12"
 >
-  <header class="text-center w-8/12 mx-auto mt-16 space-y-3">
-    <h1 class="text-7xl">Conclusion</h1>
+  <header class="text-center md:w-8/12 mx-auto mt-16 space-y-3">
+    <h1 class="md:text-7xl">Conclusion</h1>
     <p>
       Our project set out to analyze narratives around gender-based violence
       within Filipino Reddit communities and to test several hypotheses related
@@ -17,7 +17,7 @@
     </p>
   </header>
 
-  <h2 class="text-5xl mt-20 mb-8">Key Takeaways</h2>
+  <h2 class="md:text-5xl text-2xl md:mt-20 mt-8 md:mb-8">Key Takeaways</h2>
   <Dropdown isOpen={false} title="Content Variation">
     <p>
       <b>Hypothesis</b>
@@ -90,7 +90,9 @@
     </p>
   </Dropdown>
 
-  <h2 class="text-5xl mt-20 mb-8">Summary of Model Performance</h2>
+  <h2 class="md:text-5xl text-2xl md:mt-20 mt-8 md:mb-8">
+    Summary of Model Performance
+  </h2>
 
   <Dropdown isOpen={false} title="Predicting Engagement">
     The RandomForestRegressor model achieved a Mean Squared Error (MSE) of
@@ -115,7 +117,9 @@
     relevance.
   </Dropdown>
 
-  <h2 class="text-5xl mt-20 mb-8">Recommendations and Final Thoughts</h2>
+  <h2 class="md:text-5xl text-2xl md:mt-20 mt-8 md:mb-8">
+    Recommendations and Final Thoughts
+  </h2>
 
   <Dropdown isOpen={false} title="Recommendations">
     <ol>

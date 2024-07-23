@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="md:flex flex-row items-start md:mx-6 rounded-2xl py-16 px-12 md:space-x-10 relative z-20 justify-between"
+  class="md:flex flex-row items-start md:mx-6 rounded-2xl py-16 md:px-12 px-8 md:space-x-10 md:relative z-20 justify-between"
 >
   <div class="md:w-5/12 text-xs md:sidebar rounded-2xl md:sticky md:top-0 py-4">
     <h1 class="text-4xl mb-4 pt-16">About Our Dataset</h1>

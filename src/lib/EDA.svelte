@@ -10,8 +10,10 @@
   class="flex flex-col align-center mx-6 bg-white rounded-2xl px-12 space-y-2 py-12"
 >
   <div class="md:flex justify-between items-baseline pb-3">
-    <h2 class="text-center md:text-left text-3xl">EXPLORATORY DATA ANALYSIS</h2>
-    <div class="nav-links text-center space-x-2">
+    <h2 class="text-center md:text-left text-3xl pb-4">
+      EXPLORATORY DATA ANALYSIS
+    </h2>
+    <div class="nav-links md:text-right text-center gap-4">
       <button
         class={activeSection === "Holiday Engagement Trends" ? "active" : ""}
         on:click={() => showSection("Holiday Engagement Trends")}
@@ -58,8 +60,8 @@
       </button>
     </div>
   </div>
-  <div class="pt-8 text-xl">
-    <div class="pt-20 md:px-20 space-y-4">
+  <div class="md:text-xl">
+    <div class="md:pt-20 md:px-20 space-y-4">
       {#if activeSection === "Holiday Engagement Trends"}
         <h2 class="text-center text-4xl md:text-6xl pt-12 md:pb-8">
           Average Engagement Over Time by Holidays
@@ -68,7 +70,7 @@
           <img
             src="image/plots/top_5_holidays.png"
             alt="A chart showing Average Engagement Over Time by Holidays"
-            class="rounded-lg mx-auto w-10/12"
+            class="rounded-lg mx-auto md:w-10/12"
           />
         </div>
         <p>Those with high engagement:</p>
@@ -102,7 +104,7 @@
           <img
             src="image/plots/posts_per_year.png"
             alt="A chart showing posts per year"
-            class="rounded-lg mx-auto w-10/12"
+            class="rounded-lg mx-auto md:w-10/12"
           />
         </div>
         <p>
@@ -170,7 +172,7 @@
           <img
             src="image/plots/posts_per_month.png"
             alt="A chart showing Monthly Analysis of Posts"
-            class="rounded-lg mx-auto w-10/12"
+            class="rounded-lg mx-auto md:w-10/12"
           />
         </div>
         <p>Based on the chart,</p>
@@ -198,7 +200,7 @@
           <img
             src="image/plots/posts_per_day.png"
             alt="A chart showing Analysis of Posts Per Day"
-            class="rounded-lg mx-auto w-10/12"
+            class="rounded-lg mx-auto md:w-10/12"
           />
         </div>
         <p>Based on the chart,</p>
@@ -230,7 +232,7 @@
           <img
             src="image/plots/posts_per_day_of_week.png"
             alt="A chart showing Weekly Analysis of Posts"
-            class="rounded-lg mx-auto w-10/12"
+            class="rounded-lg mx-auto md:w-10/12"
           />
         </div>
         <p>Based on the chart,</p>
@@ -263,7 +265,7 @@
           <img
             src="image/plots/ave_engagement_over_time_gender.png"
             alt="A chart showing Weekly Analysis of Posts"
-            class="rounded-lg mx-auto w-10/12"
+            class="rounded-lg mx-auto md:w-10/12"
           />
         </div>
         <p>Those with high engagement:</p>
@@ -291,7 +293,7 @@
           <img
             src="image/plots/ave_engagement_over_time_age.png"
             alt="A chart showing Average Engagement Over Time by Holidays"
-            class="rounded-lg mx-auto w-10/12"
+            class="rounded-lg mx-auto md:w-10/12"
           />
         </div>
         <p>Those with high engagement:</p>

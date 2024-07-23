@@ -1,17 +1,17 @@
 <div class="text-white text-center py-12 space-y-14">
-  <h1 class="pt-4 text-7xl gradient m-auto gradient-light pb-4">
+  <h1 class="pt-4 md:text-7xl gradient m-auto gradient-light pb-4">
     MEET THE TEAM
   </h1>
 
   <!-- Arian -->
   <div
-    class="flex flex-col sm:flex-row bg-white flex-row w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg md:w-9/12 w-10/12 m-auto p-6"
+    class="flex flex-col sm:flex-row bg-white flex-row md:w-100vw justify-center gap-4 bg-[#fffcf8] rounded-lg md:w-9/12 w-10/12 m-auto p-6"
   >
     <div class="md:w-8/12 flex flex-col text-gdark">
       <h2 class="mb-3 text-[2em] text-left">
         <span class="gradient-dark">Arian Rey</span>🐣
       </h2>
-      <p class="text-lg text-left">
+      <p class="md:text-lg text-left">
         Nice to meet you! I'm Arian Rey<br /><br />A BS Computer Science student
         at the University of the Philippines - Diliman, specializing in UI/UX
         design, frontend and software development. Currently, I am passionate
@@ -106,7 +106,7 @@
       <h2 class="mb-3 text-[2em] text-left">
         <span class="gradient-dark">Christian Quinzon</span>🙉
       </h2>
-      <p class="text-lg text-left">
+      <p class="md:text-lg text-left">
         Hi I’m Chrissy! I'm currently a BS Computer Science student at the
         University of the Philippines - Diliman, specializing in Natural
         Language Processing (NLP). I contributed to a published conference paper
@@ -117,19 +117,6 @@
         committee and as finance head in several teams. I enjoy making music, experimenting
         with painting, sculpting, gaming, and building figurines.
         <br /><br />
-
-        🖥️ Research:
-        <a
-          class="cutelink"
-          href="https://doi.org/10.1109/TENCON58879.2023.10322357"
-          target="_blank">https://doi.org/10.1109/TENCON58879.2023.10322357</a
-        ><br />
-        🎶 Music:
-        <a
-          class="cutelink"
-          href="https://soundcloud.com/christianquinzo"
-          target="_blank">https://soundcloud.com/christianquinzon</a
-        >
       </p>
     </div>
     <div class="rounded-lg sm:w-4/12 sm:order-last order-first">

@@ -2,11 +2,11 @@
 </script>
 
 <nav
-  class="h-16 items-center rounded-lg bg-white shadow-sm px-8 mx-6 pt-5 pb-3 px-2"
+  class="md:h-16 items-center rounded-lg bg-white shadow-sm px-8 mx-6 pt-5 pb-3"
 >
   <div class="flex justify-between">
     <div class="flex">
-      <divs class="font-semibold flex items-center text-slate-700 text-xl">
+      <divs class="font-semibold flex items-center text-slate-700 md:text-xl">
         Kalachuchi
       </divs>
     </div>
